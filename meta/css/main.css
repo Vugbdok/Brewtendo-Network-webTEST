@@ -42,7 +42,7 @@ body {
 
 @media (max-width: 800px) {
     .test-btn {
-        font-size: 10vw;
+        font-size: 5vw;
     }
 }
 
