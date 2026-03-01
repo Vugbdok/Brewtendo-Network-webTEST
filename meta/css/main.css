@@ -40,6 +40,12 @@ body {
     box-shadow: rgba(0,0,0,0.2) 1px 1px 10px inset;
 }
 
+@media (max-width: 800px) {
+    .test-btn {
+        font-size: 5vw;
+    }
+}
+
 .test-btn:hover {
     transform: scale(1.05);
 }
@@ -53,4 +59,5 @@ body {
     border-radius: 50px;
     position: relative;
     top: 5px;
+    box-shadow: 1px 1px white;
 }
