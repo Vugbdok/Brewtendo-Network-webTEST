@@ -35,7 +35,7 @@ body {
     height: fit-content;
     min-width: 250px;
     min-height: 150px;
-    font-size: 1.5vw;
+    font-size: 30px;
     border: none;
     box-shadow: rgba(0,0,0,0.2) 1px 1px 10px inset;
 }
