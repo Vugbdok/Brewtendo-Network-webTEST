@@ -14,7 +14,28 @@ function changeContent(page) {
 			break;
 		case 'guide':
 			contentDiv.innerHTML = `
-				<p>new guide page wowwwww</p>
+				<p>A modded 3DS with luma3ds installed see https://3ds.hacks.guide/ for more info.
+
+Setting up the Brewtendo eShop:
+Install the ips patch below labeled 0004013000002F02.ips to SD:\luma\sysmodules\ on your SD Card.
+Hold Select on Startup & Make sure there's a X next to at least Enable game patching & Enable loading external FIRMs and modules
+Go into Pretendos Nimbus app & select Nintendo Network if your on Pretendo enjoy. If not while "recommended" nnid may have issues while pretendo works.
+Go into settings after & go to your WIFI connection & select the one your currently using (multiple without the proxy & ip changes will cause disconnects) go to Proxy settings & enter the Proxy IP: 69.202.205.93 Port 3000 subject to possibly change "do not give out to prevent issues & may result in a ban"
+
+Once all this is done, you should be able to access the eShop. 
+37 bytes
+A complete guide to 3DS custom firmware
+Other Useful Information
+Games Disappearing on First Connection
+On the first connection, games installed on your console may disappear from the home menu (this does not effect saves unless update not found, be careful, example streetpass update is disabled/faketik not used)
+
+This is normal behavior. The games have not actually disappeared.
+To make your games reappear, you can use faketik:
+
+Download faketik.3dsx below
+Place the file in SD:/3ds/faketik.3dsx on your SD card
+Launch faketik from the Homebrew Launcher
+Follow the on-screen instructions to regenerate the tickets & games will reappear.</p>
 				<button type="button" class="test-btn" onclick="changeContent('home'); document.getElementById('touch-sound').play(); document.getElementById('decide-sound').play();">
 					go back home
 				</button>
