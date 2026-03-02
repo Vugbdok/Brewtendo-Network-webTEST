@@ -4,11 +4,12 @@ function changeContent(page) {
 	switch (page) {
 		case 'home':
 			contentDiv.innerHTML = `
-				<!--NOT AI BTW-->
-				<img src="meta/images/logo.png"/>
-				<p>(actually human) website back soon holy shit</p>
-				<h3>by cannedfart <img class="pfp" src="https://cdn.discordapp.com/avatars/1106930666333028422/f676c7fde54ed42351e094cac5825324.png"/> & nebula <img class="pfp" src="https://cdn.discordapp.com/avatars/1407843801762107535/aa55584f743396e1adcd23d949939096.png"> btw :)</h3>
-				<button type="button" class="test-btn" onclick="changeContent('guide'); document.getElementById('touch-sound').play(); document.getElementById('decide-sound').play();">test button</button>
+            	<!--NOT AI BTW-->
+            	<img src="meta/images/logo.png" />
+            	<p>(actually human) website back soon holy shit</p>
+            	<h3>by cannedfart <img class="pfp" src="https://cdn.discordapp.com/avatars/1106930666333028422/f676c7fde54ed42351e094cac5825324.png" /> & nebula <img class="pfp" src="https://cdn.discordapp.com/avatars/1407843801762107535/aa55584f743396e1adcd23d949939096.png"> btw :)</h3>
+            	<h4>note that all buttons will have a big redesign to match the eshop so dont edit them too much</h3>
+            	<button type="button" class="test-btn" onclick="changeContent('guide'); document.getElementById('touch-sound').play(); document.getElementById('decide-sound').play();">Guide</button>
 			`;
 			break;
 		case 'guide':
