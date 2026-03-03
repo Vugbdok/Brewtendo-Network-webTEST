@@ -55,9 +55,16 @@ body {
     font-family: inherit;
 }
 
+.guide-txt {
+    width: 50vw;
+}
+
 @media (max-width: 800px) {
     .test-btn {
         font-size: 5vw;
+    }
+    .guide-txt {
+        width: 100vw;
     }
 }
 
@@ -79,10 +86,6 @@ body {
 
 body {
     padding-bottom: 510px;
-}
-
-.guide-txt {
-    width: 50vw;
 }
 
 #header-guide {
