@@ -14,7 +14,7 @@ function changeContent(page) {
 			break;
 		case 'guide':
 			contentDiv.innerHTML = `
-				<h1>You will need a modded 3DS with luma3ds installed see <a href="https://3ds.hacks.guide/">https://3ds.hacks.guide/</a> for more info.
+				<h1 id="guide-txt">You will need a modded 3DS with luma3ds installed see <a href="https://3ds.hacks.guide/">https://3ds.hacks.guide/</a> for more info.
 <br /><br />
 Setting up the Brewtendo eShop:
 Install the ips patch below labeled <code>0004013000002F02.ips</code> to <code>SD:\luma\sysmodules\</code> on your SD Card.
