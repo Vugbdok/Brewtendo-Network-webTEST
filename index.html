@@ -14,6 +14,12 @@
     </script>
 </head>
 <body>
+    <script>
+        function select() {
+            document.getElementById('touch-sound').play();
+            document.getElementById('decide-sound').play();
+        }
+    </script>
     <audio id="decide-sound">
         <source src="meta/sounds/decide.mp3" type="audio/mp3" />
     </audio>
@@ -23,10 +29,10 @@
     <main>
         <div id="content">
             <div class="navi-bar">
-                <a href="#" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css');">Home</a>
-                <a href="#" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css');">Install Guide</a>
-                <a href="#" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/main.css');">Badge Arcade</a>
-                <a href="#" onclick="changeContent('nintendovideo'); swapStyleSheet('meta/css/main.css');">Nintendo Video</a>
+                <a href="#" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); select">Home</a>
+                <a href="#" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); select">Install Guide</a>
+                <a href="#" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/main.css') select;">Badge Arcade</a>
+                <a href="#" onclick="changeContent('nintendovideo'); swapStyleSheet('meta/css/main.css') select;">Nintendo Video</a>
             </div>
             <!--NOT AI BTW-->
             <h1 id="logo">Brewtendo</h1>
