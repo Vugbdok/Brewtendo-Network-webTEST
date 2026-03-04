@@ -14,18 +14,18 @@
     </script>
 </head>
 <body>
-    <script>
-        function select() {
-            document.getElementById('touch-sound').play();
-            document.getElementById('decide-sound').play();
-        }
-    </script>
     <audio id="decide-sound">
         <source src="meta/sounds/decide.mp3" type="audio/mp3" />
     </audio>
     <audio id="touch-sound">
         <source src="meta/sounds/btn-touch.mp3" type="audio/mp3" />
     </audio>
+    <script>
+        function select() {
+            document.getElementById('touch-sound').play();
+            document.getElementById('decide-sound').play();
+        }
+    </script>
     <main>
         <div id="content">
             <div class="navi-bar">
