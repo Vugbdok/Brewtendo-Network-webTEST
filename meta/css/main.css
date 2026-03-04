@@ -116,3 +116,10 @@ body {
     top: 5px;
     box-shadow: 1px 1px white;
 }
+
+#logo {
+    font-size: 2vw;
+    font-family: MarvelouzTubeFont3;
+    color: orange;
+    text-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+}
