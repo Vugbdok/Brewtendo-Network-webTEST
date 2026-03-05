@@ -159,3 +159,5 @@ body {
     text-shadow: 3px 3px #dbd693;
 }
 
+.hide {
+    opacity: 0;
