@@ -128,16 +128,20 @@ body {
     opacity: 0.8;
 }
 
-@media (max-width: 800px) {
-    #other-info-box {
-        width: 95vw;
-    }
-    #info-box {
-        width: 95vw;
-    }
-
 .guide-txt {
     width: 50vw;
+}
+
+@media (max-width: 800px) {
+    #other-info-box {
+        width: 90vw;
+    }
+    #info-box {
+        width: 90vw;
+    }
+    .guide-txt {
+        width: 90vw;
+    }
 }
 
 .header-column {
