@@ -36,16 +36,16 @@ function changeContent(page) {
 					<h1 class="guide-txt">Go into settings after & go to your WIFI connection & select the one your currently using (multiple without the proxy & ip changes will cause disconnects) go to Proxy settings & enter the Proxy IP: <code>69.202.205.93 Port 3000</code> subject to possibly change "do not give out to prevent issues & may result in a ban"</h1>
 					<h1 class="guide-txt">Once all this is done, you should be able to access the eShop.</h1>
 				</div>
-				<hr>
-				<hr>
-				<hr>
+				<hr class="hide">
+				<hr class="hide">
+				<hr class="hide">
 				<div id="other-info-box">
 					<h3 class="guide-txt">Other Useful Information</h3>
 					<details><summary class="guide-txt" class="header-column">Games Disappearing on First Connection</summary><h5 class="guide-txt">On the first connection, games installed on your console may disappear from the home menu <br />(this does not effect saves unless update not found, be careful, example streetpass update is disabled/faketik not used)<br />This is normal behavior. The games have not actually disappeared.<br />To make your games reappear, you can use faketik:<br />Download faketik.3dsx below<br />Place the file in <code>SD:/3ds/faketik.3dsx</code> on your SD card<br />Launch faketik from the Homebrew Launcher<br />Follow the on-screen instructions to regenerate the tickets & games will reappear.<br />faketik is also on universal updater if you dont want to install it manually</details>
 				</div>
-				<hr>
-				<hr>
-				<hr>
+				<hr class="hide">
+				<hr class="hide">
+				<hr class="hide">
 			`;
 			break;
 		case 'badgearcade':
