@@ -6,17 +6,25 @@
     <title>Brewtendo</title>
     <link rel="stylesheet" href="meta/css/main.css">
     <link rel="icon" type="image/x-icon" href="meta/images/favicon.png">
+    <script type="text/javascript">
+        function swapStyleSheet(sheet) {
+            document.getElementById('pagestyle').setAttribute('href', sheet);
+        }
+    </script>
 </head>
 <body>
     <main>
         <div id="content">
+            <div class="navi-bar">
+                <a href="https://brewtendonetwork.github.io">Home</a>
+            </div>
             <!--404 page-->
-            <img src="meta/images/logo.png" />
+            <h1 id="logo">Brewtendo</h1>
             <p>404</p>
             <h3>this page doesnt exist</h3>
-            <button type="button" class="test-btn" onclick="location.href='https://brewtendonetwork.github.io';">Back to home</button>
         </div>
     </main>
-    <script src="meta/spa.js"></script>
+    <script src="meta/js/spa.js"></script>
+    <script src="meta/js/year.js"></script>
 </body>
 </html>
