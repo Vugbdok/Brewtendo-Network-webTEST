@@ -51,55 +51,46 @@ body {
     background-image: linear-gradient(to bottom, #ffc400, #ffb300);
     overflow: hidden;
     border-bottom: solid 2px darkorange;
-    width: 100vw;
+    border-right: solid 2px darkorange;
+    border-left: solid 2px darkorange;
+    width: 50vw;
     position: relative;
     bottom: 100px;
     box-shadow: var(--shadow);
     border-radius: 0 0 30px 30px;
 }
 
-    .navi-bar a {
+    .navi-bar h4 {
         float: left;
         color: white;
         text-align: center;
-        padding: 20px 22px;
+        padding: 0px 30px;
         text-decoration: none;
         font-size: 13px;
+        border-right: 2px solid #f7e0b5;
     }
 
 @media (max-width: 800px) {
-    .navi-bar a {
+    .navi-bar h4 {
         float: left;
         color: white;
         text-align: center;
-        padding: 14px 16px;
+        padding: 0px 15px;
         text-decoration: none;
         font-size: 10px;
     }
 }
 
-.navi-bar a:hover {
-    background-color: #ffb300;
+.navi-bar h4:hover {
+    cursor: pointer;
     color: white;
+    padding: 0 30px;
 }
 
-.navi-bar a:active {
-    background-color: #ffb300;
+.navi-bar h4:active {
+    cursor: pointer;
     color: white;
-}
-
-.navi-bar h4 {
-    display: none;
-}
-
-@media (min-width: 800px) {
-    .navi-bar h4 {
-        display: block;
-        font-family: MarvelouzTubeFont3;
-        color: white;
-        float: right;
-        padding: 0px 30px;
-    }
+    padding: 0px 30px;
 }
 
 #content {

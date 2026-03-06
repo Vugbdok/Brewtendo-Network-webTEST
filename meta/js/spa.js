@@ -5,20 +5,23 @@ function changeContent(page) {
 		case 'home':
 			contentDiv.innerHTML = `
 				<div class="navi-bar">
-					<a href="#top" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); select;">Home</a>
-                	<a href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); select;">Install Guide</a>
-                	<a href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/main.css'); select;">Badge Arcade</a>
-                	<a href="#top" onclick="changeContent('nintendovideo'); swapStyleSheet('meta/css/main.css'); select;">Nintendo Video</a>
 					<h4>Brewtendo</h4>
+					<h4 href="#top" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); select;">Home</h4>
+					<h4 href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); select;">Install Guide</h4>
+					<h4 href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/main.css'); select;">Badge Arcade</h4>
+					<h4 href="#top" onclick="changeContent('nintendovideo'); swapStyleSheet('meta/css/main.css'); select;">Nintendo Video</h4>
+					<h4 href="#top"onclick="changeContent('miiverse'); swapStyleSheet('meta/css/main.css'); select;">Miiverse</h4>
 				</div>
             	<!--NOT AI BTW-->
 				<div id="center-div">
 					<h1 id="logo">Brewtendo</h1>
 					<p>(beta website)</p>
 					<h3>by cannedfart <img class="pfp" src="https://cdn.discordapp.com/avatars/1106930666333028422/f676c7fde54ed42351e094cac5825324.png" /> & barely nebula <img class="pfp" src="https://cdn.discordapp.com/avatars/1407843801762107535/aa55584f743396e1adcd23d949939096.png"> btw :)</h3>
-					<h4>Note that all buttons will have a redesign to match the eshop so dont edit them too much</h4>
-					<div id="guide-button" class="pill-button" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css');">
-						<u>Installation guide</u>
+					<div class="style-center-div">
+						<h4><i>View the guide to learn how to install Brewtendo on your 3DS!</i></h4>
+						<div id="bottom-pill-button" class="pill-button" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css');">
+							<u>Installation guide</u>
+						</div>
 					</div>
 				</div>
 			`;
@@ -26,11 +29,12 @@ function changeContent(page) {
 		case 'guide':
 			contentDiv.innerHTML = `
 				<div class="navi-bar">
-					<a href="#top" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); select;">Home</a>
-                	<a href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); select;">Install Guide</a>
-                	<a href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/main.css'); select;">Badge Arcade</a>
-                	<a href="#top" onclick="changeContent('nintendovideo'); swapStyleSheet('meta/css/main.css'); select;">Nintendo Video</a>
 					<h4>Brewtendo</h4>
+					<h4 href="#top" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); select;">Home</h4>
+					<h4 href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); select;">Install Guide</h4>
+					<h4 href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/main.css'); select;">Badge Arcade</h4>
+					<h4 href="#top" onclick="changeContent('nintendovideo'); swapStyleSheet('meta/css/main.css'); select;">Nintendo Video</h4>
+					<h4 href="#top"onclick="changeContent('miiverse'); swapStyleSheet('meta/css/main.css'); select;">Miiverse</h4>
 				</div>
 				<h1 id="header-guide">Brewtendo installation guide:</h1>
 				<div id="info-box">
@@ -66,13 +70,41 @@ function changeContent(page) {
 		case 'badgearcade':
 			contentDiv.innerHTML = `
 				<div class="navi-bar">
-					<a href="#top" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); select;">Home</a>
-                	<a href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); select;">Install Guide</a>
-                	<a href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/main.css'); select;">Badge Arcade</a>
-                	<a href="#top" onclick="changeContent('nintendovideo'); swapStyleSheet('meta/css/main.css'); select;">Nintendo Video</a>
 					<h4>Brewtendo</h4>
+					<h4 href="#top" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); select;">Home</h4>
+					<h4 href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); select;">Install Guide</h4>
+					<h4 href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/main.css'); select;">Badge Arcade</h4>
+					<h4 href="#top" onclick="changeContent('nintendovideo'); swapStyleSheet('meta/css/main.css'); select;">Nintendo Video</h4>
+					<h4 href="#top"onclick="changeContent('miiverse'); swapStyleSheet('meta/css/main.css'); select;">Miiverse</h4>
 				</div>
 				<h1>nothing yet :)</h1>
 			`;
+			break;
+		case 'nintendovideo':
+			contentDiv.innerHTML = `
+				<div class="navi-bar">
+					<h4>Brewtendo</h4>
+					<h4 href="#top" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); select;">Home</h4>
+					<h4 href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); select;">Install Guide</h4>
+					<h4 href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/main.css'); select;">Badge Arcade</h4>
+					<h4 href="#top" onclick="changeContent('nintendovideo'); swapStyleSheet('meta/css/main.css'); select;">Nintendo Video</h4>
+					<h4 href="#top"onclick="changeContent('miiverse'); swapStyleSheet('meta/css/main.css'); select;">Miiverse</h4>
+				</div>
+				<h1>nothing yet :)</h1>
+			`;
+			break;
+		case 'miiverse':
+			contentDiv.innerHTML = `
+				<div class="navi-bar">
+					<h4>Brewtendo</h4>
+					<h4 href="#top" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); select;">Home</h4>
+					<h4 href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); select;">Install Guide</h4>
+					<h4 href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/main.css'); select;">Badge Arcade</h4>
+					<h4 href="#top" onclick="changeContent('nintendovideo'); swapStyleSheet('meta/css/main.css'); select;">Nintendo Video</h4>
+					<h4 href="#top"onclick="changeContent('miiverse'); swapStyleSheet('meta/css/main.css'); select;">Miiverse</h4>
+				</div>
+				<h1>nothing yet :)</h1>
+			`;
+			break;
 	}
 }
