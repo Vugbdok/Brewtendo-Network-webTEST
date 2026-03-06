@@ -12,7 +12,7 @@ function changeContent(page) {
 					<h4>Brewtendo</h4>
 				</div>
             	<!--NOT AI BTW-->
-				<div id="beta-center-div">
+				<div id="center-div">
 					<h1 id="logo">Brewtendo</h1>
 					<p>(beta website)</p>
 					<h3>by cannedfart <img class="pfp" src="https://cdn.discordapp.com/avatars/1106930666333028422/f676c7fde54ed42351e094cac5825324.png" /> & barely nebula <img class="pfp" src="https://cdn.discordapp.com/avatars/1407843801762107535/aa55584f743396e1adcd23d949939096.png"> btw :)</h3>
