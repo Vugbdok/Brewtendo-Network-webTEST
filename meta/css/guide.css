@@ -115,8 +115,8 @@ body {
 }
 
 #other-info-box {
-    background-image: linear-gradient(to bottom, #f7f7f7, #e3e3e3);
-    border: 2px solid #bababa;
+    background-image: linear-gradient(to bottom, #fff4e0, #ffeac4);
+    border: 2px solid #dbc397;
     border-radius: 15px;
     width: fit-content;
     max-width: 1200px;
@@ -176,9 +176,19 @@ body {
     text-decoration: underline;
 }
 
-#header-guide {
+#header-guide-orange {
     font-size: 40px;
-    color: orange;
+    color: darkorange;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    font-family: MarvelouzTubeFont3;
+    font-weight: 100;
+    text-shadow: 3px 3px #dbd693;
+}
+
+#header-guide-red {
+    font-size: 40px;
+    color: red;
     -webkit-text-decoration: underline;
     text-decoration: underline;
     font-family: MarvelouzTubeFont3;
@@ -212,3 +222,8 @@ body {
     .pill-button:active {
         transform: scale(0.95);
     }
+
+footer {
+    font-family: MarvelouzTubeFont3;
+    color: var(--text-color);
+}

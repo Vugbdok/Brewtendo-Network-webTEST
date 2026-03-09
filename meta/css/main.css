@@ -64,7 +64,7 @@ body {
     padding-right: 10px;
     padding-bottom: 50px;
     box-shadow: var(--shadow);
-    opacity: 0.8;
+    opacity: 1;
 }
 
 @media (max-width: 800px) {
@@ -89,6 +89,10 @@ body {
     bottom: 100px;
     box-shadow: var(--shadow);
     border-radius: 0 0 30px 30px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
     .navi-bar h4 {
@@ -141,7 +145,7 @@ body {
 }
 
 #logo {
-    font-size: 30px;
+    font-size: 40px;
     font-family: MarvelouzTubeFont3;
     color: darkorange;
     text-shadow: 3px 3px #dbd693;
@@ -169,3 +173,8 @@ body {
     .pill-button:active {
         transform: scale(0.95);
     }
+
+footer {
+    font-family: MarvelouzTubeFont3;
+    color: var(--text-color);
+}
