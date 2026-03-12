@@ -48,7 +48,6 @@ body {
 
 .style-center-div {
     background-image: linear-gradient(to bottom, #fff4e0, #ffeac4);
-    border: 2px solid #dbc397;
     border-radius: 25px;
     width: fit-content;
     max-width: 1200px;
@@ -82,9 +81,6 @@ body {
 .navi-bar {
     background-image: linear-gradient(to bottom, #ffc400, #ffb300);
     overflow: hidden;
-    border-bottom: solid 2px darkorange;
-    border-right: solid 2px darkorange;
-    border-left: solid 2px darkorange;
     position: relative;
     bottom: 100px;
     box-shadow: var(--shadow);
@@ -155,7 +151,6 @@ body {
     background: var(--pill-bg);
     padding: 15px 30px;
     border-radius: 50px;
-    border: 2px solid darkorange;
     box-shadow: var(--shadow);
     color: white;
     font-size: 20px;
