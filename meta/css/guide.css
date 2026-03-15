@@ -109,7 +109,7 @@ body {
         float: left;
         color: white;
         text-align: center;
-        padding: 0px 50px;
+        padding: 0px 2vw;
         text-decoration: none;
         font-size: 13px;
     }
@@ -117,13 +117,13 @@ body {
         .navi-bar h4:hover {
             cursor: pointer;
             color: white;
-            padding: 0 50px;
+            padding: 0 2vw;
         }
 
         .navi-bar h4:active {
             cursor: pointer;
             color: white;
-            padding: 0px 50px;
+            padding: 0px 2vw;
         }
 }
 
@@ -218,6 +218,16 @@ body {
     text-shadow: 3px 3px #dbd693;
 }
 
+#header-guide-blue {
+    font-size: 40px;
+    color: cornflowerblue;
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+    font-family: MarvelouzTubeFont3;
+    font-weight: 100;
+    text-shadow: 3px 3px #dbd693;
+}
+
 .hide {
     opacity: 0;
 }
@@ -270,3 +280,38 @@ body {
     .link:hover {
         color: #fff9e0;
     }
+
+.pfp {
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    top: 8px;
+}
+
+.progressbar {
+    position: relative;
+    height: 50px;
+    width: 50vw;
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+    background: linear-gradient(to top, #e6e6e6, #f2f2f2);
+}
+
+@media (max-width: 800px) {
+    .progressbar {
+        position: relative;
+        height: 50px;
+        width: 95vw;
+        box-shadow: var(--shadow);
+        border-radius: 15px;
+        background: linear-gradient(to top, #e6e6e6, #f2f2f2);
+    }
+}
+
+#value {
+    width: calc(100% / var(--maxvalue) * var(--value));
+    height: inherit;
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+    background-color: #d9d9d9;
+}

@@ -103,6 +103,7 @@ body {
 
     .style-center-div-black {
         margin-left: 20px;
+        max-width: 500px;
     }
 }
 
@@ -171,7 +172,7 @@ body {
             float: left;
             color: white;
             text-align: center;
-            padding: 0px 50px;
+            padding: 0px 2vw;
             text-decoration: none;
             font-size: 13px;
         }
@@ -179,22 +180,21 @@ body {
             .navi-bar h4:hover {
                 cursor: pointer;
                 color: white;
-                padding: 0 50px;
+                padding: 0 2vw;
             }
 
             .navi-bar h4:active {
                 cursor: pointer;
                 color: white;
-                padding: 0px 50px;
+                padding: 0px 2vw;
             }
     }
 
     .pfp {
         width: 30px;
-        border-radius: 50px;
+        border-radius: 50%;
         position: relative;
-        top: 5px;
-        box-shadow: 1px 1px white;
+        top: 8px;
     }
 
     #logo {

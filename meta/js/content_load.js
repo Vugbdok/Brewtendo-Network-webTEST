@@ -13,5 +13,8 @@ function changeContent(page) {
 		case 'other':
 			contentDiv.innerHTML = load_4();
 			break;
+		case 'progress':
+			contentDiv.innerHTML = load_5();
+			break;
 	}
 }
