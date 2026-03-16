@@ -257,7 +257,8 @@ body {
 
 @media (min-width: 800px) {
     .column {
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        height: inherit;
     }
 }
