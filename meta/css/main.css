@@ -254,8 +254,10 @@ body {
         .link:hover {
             color: #fff9e0;
         }
-                
-.column {
+
+@media (min-width: 800px) {
+    .column {
     display: flex;
     flex-direction: column;
+    }
 }
