@@ -3,7 +3,7 @@
     --bg-color: #f2eebd;
     --text-color: #404040;
     /*might not need shadows yet but yk*/
-    --shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    --shadow: -1px 1px 10px 5px #dbd693;
 }
 
 @font-face {
@@ -59,9 +59,10 @@ body {
 }
 
 .style-center-div-nocolor {
-    background-image: linear-gradient(to bottom, #fff4e0, #ffeac4);
-    border-radius: 25px;
-    width: fit-content;
+    position: relative;
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+    width: 500px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -75,7 +76,35 @@ body {
     box-shadow: var(--shadow);
     opacity: 1;
     margin-bottom: 50px;
+    z-index: 0;
 }
+
+.style-center-div-top {
+    position: relative;
+    background-color: #dd7ca0;
+    border-radius: 25px 25px 0 0;
+    width: 500px;
+    right: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    flex-direction: column;
+    color: white;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 2px solid #bf6d8d;
+    opacity: 1;
+    z-index: 1;
+}
+
+    .style-center-div-top h4 {
+        position: relative;
+        bottom: 25px;
+    }
 
 .style-center-div-black {
     background-color: #aba282;
@@ -206,19 +235,19 @@ body {
         text-shadow: 3px 3px #dbd693;
     }
 
-    .pill-button {
-        background: var(--pill-bg);
-        padding: 15px 30px;
-        border-radius: 50px;
-        box-shadow: var(--shadow);
-        color: white;
-        font-size: 20px;
-        cursor: pointer;
-        text-align: center;
-        transition: transform 0.2s ease;
-        width: fit-content;
-        min-width: 250px;
-    }
+.pill-button {
+    background: linear-gradient(to bottom, #f7f3ef 80%, #afaa94 100%);
+    padding: 15px 30px;
+    border-radius: 25px;
+    box-shadow: inset 0px 3px 10px #c2bca5;
+    color: #5e5c50;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.2s ease;
+    width: fit-content;
+    min-width: 250px;
+}
 
         .pill-button:hover {
             transform: scale(1.05);
