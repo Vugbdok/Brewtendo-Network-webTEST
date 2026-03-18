@@ -84,7 +84,6 @@ body {
     background-color: #dd7ca0;
     border-radius: 25px 25px 0 0;
     width: 500px;
-    right: 10px;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -105,6 +104,12 @@ body {
         position: relative;
         bottom: 25px;
     }
+
+@media (min-width: 800px) {
+    .style-center-div-top {
+        right: 10px;
+    }
+}
 
 .style-center-div-black {
     background-color: #aba282;
