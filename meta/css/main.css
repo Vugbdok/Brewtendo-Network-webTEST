@@ -62,7 +62,7 @@ body {
     position: relative;
     background-color: white;
     border-radius: 0 0 25px 25px;
-    width: 500px;
+    width: 100vw;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -83,7 +83,7 @@ body {
     position: relative;
     background-color: #dd7ca0;
     border-radius: 25px 25px 0 0;
-    width: 500px;
+    width: 100vw;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -108,11 +108,17 @@ body {
 @media (min-width: 800px) {
     .style-center-div-top {
         right: 10px;
+        width: 500px;
     }
+
+    .style-center-div-nocolor {
+        width: 500px;
+    }
+
 }
 
-.style-center-div-black {
-    background-color: #aba282;
+.style-center-div {
+    background: linear-gradient(to bottom, #f7f3ef 95%, #afaa94 100%);
     border-radius: 25px;
     width: fit-content;
     max-width: 1200px;
@@ -120,14 +126,20 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    color: #f2f2f2;
+    color: #5e5c50;
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
     padding: 10px 10px 50px 10px;
-    box-shadow: var(--shadow);
+    box-shadow: inset 0px 3px 10px #c2bca5;
     opacity: 1;
     margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+    .style-center-div {
+        width: 100vw;
+    }
 }
 
 @media (min-width: 800px) {
@@ -136,7 +148,7 @@ body {
         max-width: 500px;
     }
 
-    .style-center-div-black {
+    .style-center-div {
         margin-left: 20px;
         max-width: 500px;
         font-size: 1.5rem;
@@ -295,4 +307,9 @@ body {
         flex-direction: column;
         height: inherit;
     }
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
 }

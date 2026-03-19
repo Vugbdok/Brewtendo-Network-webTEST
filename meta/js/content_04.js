@@ -1,4 +1,4 @@
-function load_4() {
+function load_04() {
 	return `
 	    <div class="navi-bar">
             <div id="center-navi">
@@ -8,34 +8,38 @@ function load_4() {
                 <h4 href="#top" onclick="changeContent('other'); swapStyleSheet('meta/css/main.css'); playAudio('decide');" style="border: none;"><u>Other Info</u></h4>
             </div>
         </div>
-		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
+		<div class="style-center-div" class="row" style="padding: 10px 10px 30px 10px;" id="float"><u>Brewtendo Staff:</u>
+		<hr style="width:100%;">
+		<div style="display:flex;flex-direction:row;">
+			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
+				<li>Adrian (VugbKat)</li>
+				<li>Andrea</li>
+				<li>Bunnyzluver1998</li>
+				<li>FunDog</li>
+				<li>HEXADUCK</li>
+				<li>John N. Brewtendo</li>
+				<li>Khentendo</li>
+				<li>KittenPeng</li>
+				<li>Meng</li>
+				<li>Mr.Ghosty</li>
+				<li>Preblox</li>
+				<li>Drag0n_A13</li>
+			</ul>
+			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
+				<li>SatellaGuy</li>
+				<li>Somarix</li>
+				<li>Technet</li>
+				<li>cannedfart</li>
+				<li>cool guy</li>
+				<li>gilberr</li>
+				<li>nebulagamez</li>
+				<li>very broken ps3</li>
+				<li>vista</li>
+				<li>ENO yosh :3</li>
+				<li>synikers</li>
+				<li>sam.</li>
+			</ul>
+		</div>
+		</div>
     `;
 }

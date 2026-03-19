@@ -9,7 +9,7 @@ function load_2() {
             </div>
         </div>
 			<h1 id="header-guide-orange">Brewtendo installation guide:</h1>
-		<div id="info-box">
+		<div class="style-center-div">
 			<h1 class="guide-txt">You will need a modded 3DS with luma3ds installed see <a href="https://3ds.hacks.guide/">https://3ds.hacks.guide/</a> for more info.</h1>
 			<h1 class="guide-txt" class="header-column"><u>Setting up the Brewtendo eShop:</u></h1>
 			<h1 class="guide-txt">Install this <a href="https://drive.google.com/uc?export=download&id=1HsXZfe2kGBCBVG9noPdbEOt4k-iCstWT">ips patch</a> to <code>SD/luma/sysmodules/</code> on your SD Card.<br />Patchless version coming tuesday.</h1>
@@ -21,19 +21,25 @@ function load_2() {
 		<hr class="hide">
 		<hr class="hide">
 		<hr class="hide">
-		<div id="other-info-box">
-			<h3 class="guide-txt">Other Useful Information</h3>
-			<details><summary class="guide-txt" class="header-column">Games Disappearing on First Connection</summary><h5 class="guide-txt">On the first connection, games installed on your console may disappear from the home menu <br />(this does not effect saves unless update not found, be careful, example streetpass update is disabled/faketik not used)<br />This is normal behavior. The games have not actually disappeared.<br />To make your games reappear, you can use faketik:<br />Download <a href="https://drive.google.com/uc?export=download&id=1utsgz3Ou22HU50CLgFcwHnnrVSz_cmO3">faketik.3dsx</a><br />Place the file in <code>SD:/3ds/faketik.3dsx</code> on your SD card<br />Launch faketik from the Homebrew Launcher<br />Follow the on-screen instructions to regenerate the tickets & games will reappear.<br />faketik is also on universal updater if you dont want to install it manually</details>
-			<details><summary class="guide-txt" class="header-column">Theme Shop data deletion</summary><h5 class="guide-txt">Go to FBI, ext save data, for USA you delete ext save data ending in 000002cd for EUR you delete ext dave data ending in 000002ce.</details>
-		</div>
-		<hr class="hide">
-		<hr class="hide">
-		<hr class="hide">
-		<div id="center-div">
-			<div class="pill-button" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); playAudio('decide');">
-				<u>Home Page</u>
-			</div>
-		</div>
+		            <div class="style-center-container">
+                        <div class="style-center-div-top">
+                            <h4>Other useful information:</h4>
+                        </div>
+                        <div class="style-center-div-nocolor" id="float">
+									<h3 class="guide-txt">Games Disappearing on First Connection</h3>
+									<hr style="width:100%;" />
+									<h3 class="guide-txt">On the first connection, games installed on your console may disappear from the home menu <br />(this does not effect saves unless update not found, be careful, example streetpass update is disabled/faketik not used)<br />This is normal behavior. The games have not actually disappeared.<br />To make your games reappear, you can use faketik:<br />Download <a href="https://drive.google.com/uc?export=download&id=1utsgz3Ou22HU50CLgFcwHnnrVSz_cmO3">faketik.3dsx</a><br />Place the file in <code>SD:/3ds/faketik.3dsx</code> on your SD card<br />Launch faketik from the Homebrew Launcher<br />Follow the on-screen instructions to regenerate the tickets & games will reappear.<br />faketik is also on universal updater if you dont want to install it manually</h3>
+									<hr style="width:100%;" />
+									<h3 class="guide-txt">Theme Shop data deletion</h3>
+									<h3 class="guide-txt">Go to FBI, ext save data, for USA you delete ext save data ending in 000002cd for EUR you delete ext dave data ending in 000002ce.</h3>
+									<hr style="width:100%;" />
+							<div id="center-div">
+								<div class="pill-button" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); playAudio('decide');">
+									<u>Home Page</u>
+								</div>
+							</div>
+                        </div>
+                    </div>
 		<hr class="hide">
 		<hr class="hide">
 		<hr class="hide">

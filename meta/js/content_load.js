@@ -11,7 +11,7 @@ function changeContent(page) {
 			contentDiv.innerHTML = load_3();
 			break;
 		case 'other':
-			contentDiv.innerHTML = load_4();
+			contentDiv.innerHTML = load_04();
 			break;
 		case 'progress':
 			contentDiv.innerHTML = load_5();

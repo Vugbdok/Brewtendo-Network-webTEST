@@ -137,6 +137,92 @@ body {
     overflow-wrap: break-word;
 }
 
+.style-center-div-nocolor {
+    position: relative;
+    background-color: white;
+    border-radius: 0 0 25px 25px;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--text-color);
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 10px 10px 10px 10px;
+    box-shadow: var(--shadow);
+    opacity: 1;
+    margin-bottom: 50px;
+    z-index: 0;
+}
+
+.style-center-div-top {
+    position: relative;
+    background-color: #dd7ca0;
+    border-radius: 25px 25px 0 0;
+    width: inherit;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 20px;
+    flex-direction: column;
+    color: white;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 2px solid #bf6d8d;
+    opacity: 1;
+    z-index: 1;
+}
+
+    .style-center-div-top h4 {
+        position: relative;
+        bottom: 25px;
+    }
+
+.style-center-div {
+    background: linear-gradient(to bottom, #f7f3ef 95%, #afaa94 100%);
+    border-radius: 25px;
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #5e5c50;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    box-shadow: inset 0px 3px 10px #c2bca5;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 800px) {
+    .style-center-div {
+        width: 100vw;
+    }
+    .style-center-div-nocolor {
+        width: 100vw;
+    }
+    .style-center-div-top {
+        width: 100vw;
+    }
+}
+
+@media (min-width: 800px) {
+    .style-center-div-nocolor {
+        max-width: 1200px;
+    }
+
+    .style-center-div {
+        font-size: 1.5rem;
+        padding: 10px 10px 50px 10px;
+        max-width: 50vw;
+    }
+}
+
 #other-info-box {
     background-image: linear-gradient(to bottom, #fff4e0, #ffeac4);
     border-radius: 15px;
@@ -233,11 +319,11 @@ body {
 }
 
 .pill-button {
-    background: var(--pill-bg);
+    background: linear-gradient(to bottom, #f7f3ef 80%, #afaa94 100%);
     padding: 15px 30px;
-    border-radius: 50px;
-    box-shadow: var(--shadow);
-    color: white;
+    border-radius: 25px;
+    box-shadow: inset 0px 3px 10px #c2bca5;
+    color: #5e5c50;
     font-size: 20px;
     cursor: pointer;
     text-align: center;

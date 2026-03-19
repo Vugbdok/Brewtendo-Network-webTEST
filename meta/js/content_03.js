@@ -9,7 +9,7 @@ function load_3() {
             </div>
         </div>
 			<h1 id="header-guide-red">Badge Arcade Cheats:</h1>
-		<div id="info-box">
+		<div class="style-center-div">
 			<h1 class="guide-txt" class="header-column"><u>Setup Instructions</u></h1>
 			<h1 class="guide-txt" class="header-column"><u>Install the Plugin:</u></h1>
 			<h1 class="guide-txt">Place the <a href="https://drive.google.com/uc?export=download&id=1wBAnV2fCdtEDNQJFrU6TwN_23XbRc6GU">cheat plugin</a> file into your SD card under <code>luma/plugins.</code></h1>
