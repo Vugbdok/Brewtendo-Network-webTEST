@@ -5,10 +5,10 @@ function load_04() {
                 <h4 href="#top" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); playAudio('decide');">Brewtendo</h4>
                 <h4 href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); playAudio('decide');">Install Guide</h4>
                 <h4 href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/guide.css'); playAudio('decide');">Badge Arcade</h4>
-                <h4 href="#top" onclick="changeContent('other'); swapStyleSheet('meta/css/main.css'); playAudio('decide');" style="border: none;"><u>Other Info</u></h4>
+                <h4 href="#top" onclick="changeContent('other'); swapStyleSheet('meta/css/main.css'); playAudio('decide');" style="border: none;">Other Info</h4>
             </div>
         </div>
-		<div class="style-center-div" class="row" style="padding: 10px 10px 30px 10px;" id="float"><u>Brewtendo Staff:</u>
+		<div class="style-center-div" class="row" style="padding: 10px 10px 30px 10px;" id="float">Brewtendo Staff:
 		<hr style="width:100%;">
 		<div style="display:flex;flex-direction:row;">
 			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
