@@ -3,7 +3,7 @@ function load_2() {
         <div class="navi-bar">
             <div id="center-navi">
                 <h4 href="#top" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); playAudio('decide');">Brewtendo</h4>
-                <h4 href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); playAudio('decide');"><u>Install Guide</u></h4>
+                <h4 href="#top" onclick="changeContent('guide'); swapStyleSheet('meta/css/guide.css'); playAudio('decide');">Install Guide</h4>
                 <h4 href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('meta/css/guide.css'); playAudio('decide');">Badge Arcade</h4>
                 <h4 href="#top" onclick="changeContent('other'); swapStyleSheet('meta/css/main.css'); playAudio('decide');" style="border: none;">Other Info</h4>
             </div>
@@ -11,7 +11,7 @@ function load_2() {
 			<h1 id="header-guide-orange">Brewtendo installation guide:</h1>
 		<div class="style-center-div">
 			<h1 class="guide-txt">You will need a modded 3DS with luma3ds installed see <a href="https://3ds.hacks.guide/">https://3ds.hacks.guide/</a> for more info.</h1>
-			<h1 class="guide-txt" class="header-column"><u>Setting up the Brewtendo eShop:</u></h1>
+			<h1 class="guide-txt" class="header-column">Setting up the Brewtendo eShop:</h1>
 			<h1 class="guide-txt">Install this <a href="https://drive.google.com/uc?export=download&id=1HsXZfe2kGBCBVG9noPdbEOt4k-iCstWT">ips patch</a> to <code>SD/luma/sysmodules/</code> on your SD Card.<br />Patchless version coming tuesday.</h1>
 			<h1 class="guide-txt">Hold Select on Startup & Make sure there's a X next to at least Enable game patching & Enable loading external FIRMs and modules</h1>
 			<h1 class="guide-txt">Go into Pretendos Nimbus app & select Nintendo Network if your on Pretendo enjoy. If not while "recommended" nnid may have issues while pretendo works.</h1>
@@ -35,7 +35,7 @@ function load_2() {
 									<hr style="width:100%;" />
 							<div id="center-div">
 								<div class="pill-button" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); playAudio('decide');">
-									<u>Home Page</u>
+									Home Page
 								</div>
 							</div>
                         </div>
