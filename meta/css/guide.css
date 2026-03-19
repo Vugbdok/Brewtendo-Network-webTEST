@@ -212,10 +212,6 @@ body {
 }
 
 @media (min-width: 800px) {
-    .style-center-div-nocolor {
-        max-width: 1200px;
-    }
-
     .style-center-div {
         font-size: 1.5rem;
         padding: 10px 10px 50px 10px;
