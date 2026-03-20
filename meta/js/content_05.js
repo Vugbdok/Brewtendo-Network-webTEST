@@ -10,8 +10,11 @@ function load_5() {
         </div>
         <div id="center-div">
         <h1 id="header-guide-blue">Progress on website:</h1>
+        <script>
+            let percent = 3;
+        </script>
         <section>
-            <div id="progressid" class="progressbar" style="--maxvalue: 7; --value: 4;">
+            <div id="progressid" class="progressbar" style="--maxvalue: 6; --value: 3;">
                 <div id="value"></div>
             </div>
         </section>
@@ -19,7 +22,6 @@ function load_5() {
             <li>Proper home page</li>
             <li>Make "other info" page</li>
             <li>Give out deserved credits</li>
-			<li>Support Page</li>
         </ul>
         <p>(yes thats really it I have nothing else to add other than this..)<br />I will remove what's finished every time I finish something</p>
         </div>
