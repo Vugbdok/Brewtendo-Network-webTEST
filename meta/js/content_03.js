@@ -8,25 +8,18 @@ function load_3() {
                 <h4 href="#top" onclick="changeContent('other'); swapStyleSheet('meta/css/main.css'); playAudio('decide');" style="border: none;">Other Info</h4>
             </div>
         </div>
-			<h1 id="header-guide-red">Badge Arcade Cheats:</h1>
-		<div class="style-center-div">
-			<h1 class="guide-txt" class="header-column">Setup Instructions</h1>
-			<h1 class="guide-txt" class="header-column">Install the Plugin:</h1>
-			<h1 class="guide-txt">Place the <a href="https://drive.google.com/uc?export=download&id=1wBAnV2fCdtEDNQJFrU6TwN_23XbRc6GU">cheat plugin</a> file into your SD card under <code>luma/plugins.</code></h1>
-			<h1 class="guide-txt">If the folder does not exist, create it manually.</h1>
-			<h1 class="guide-txt">Enable Plugin Loader:</h1>
-			<h1 class="guide-txt">Launch Rosalina Menu: Hold L + D-Pad Down + Select & Navigate to Plugin Loader and enable it. then enter badge arcade.</h1>
-			<h1 class="guide-txt" class="header-column">Cheat Procedure</h1>
-			<h1 class="guide-txt">Press Select (or L + D-Pad Down + Select) to enter the search interface.</h1>
-			<h1 class="guide-txt">Search for the value corresponding to your available plays (starting at 5 or the amount of plays you have).</h1>
-			<h1 class="guide-txt">Play until the remaining plays decrease to 4.</h1>
-			<h1 class="guide-txt">then search again but with 4 but search 3 once following previous step again if the search results appear with more than 4 in the list, continue playing until only 3 values remain.</h1>
-			<h1 class="guide-txt">Ensure at least 2–4 values are present in the search list.</h1>
-			<h1 class="guide-txt">Edit all selected values to 9 to maximize the number of plays.</h1>
-			<h1 class="guide-txt">When returning to the game, if no arm11, the cheat should automatically adjust remaining plays.</h1>
-			<h1 class="guide-txt">Instead of showing 3 plays left, it will display 8 plays (or the appropriate maximum).</h1>
-			<h1 class="guide-txt">The exact maximum value is unknown, but setting all target values to 9 ensures the cheat works reliably.</h1>
-		</div>
+			<h1 id="header-guide-red">Setting up Badge Arcade:</h1>
+		            <div class="style-center-container" class="guide-txt">
+                        <div class="style-center-div-top">
+                            <h4>Setting up Badge Arcade.</h4>
+                        </div>
+                        <div class="style-center-div-nocolor" id="float">
+							<h3 class="guide-txt">To start, install Badge Arcade from the eShop or hShop and update the game.</h3>
+							<h3 class="guide-txt">Once you finish, load up Badge Arcade and play away!</h3>
+							<h3 class="guide-txt">To gain play coins follow the <a href="https://discord.gg/brewtendo">Badge arcade cheats guide</a>.</h3>
+							<h3 class="guide-txt">Badge Arcade and the eShop are completely disconnected from each other. (Other than using the same proxy.) You can find more updates about Badge Arcade in the official <a href="https://discord.gg/brewtendo">Brewtendo discord</a></h3>
+                        </div>
+                    </div>
 		<hr class="hide">
 		<hr class="hide">
 		<hr class="hide">

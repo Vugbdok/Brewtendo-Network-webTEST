@@ -49,12 +49,28 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
-    opacity: 0.8;
+    opacity: 1;
+}
+
+#center-all {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 1;
 }
 
 @media (max-width: 800px) {
     #center-div {
         flex-direction: column;
+    }
+}
+
+@media (min-width: 800px) {
+    #center-div {
+        position: relative;
+        left: 10px;
     }
 }
 
@@ -130,7 +146,27 @@ body {
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
-    padding: 10px 10px 50px 10px;
+    padding: 10px 20px 35px 20px;
+    box-shadow: inset 0px 3px 10px #c2bca5;
+    opacity: 1;
+    margin-bottom: 50px;
+    height: 100%;
+}
+
+.style-banner {
+    background: linear-gradient(to bottom, #f7f3ef 95%, #afaa94 100%);
+    border-radius: 25px;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    place-content: center;
+    flex-direction: column;
+    color: #5e5c50;
+    white-space: normal;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    padding: 10px 10px 10px 10px;
     box-shadow: inset 0px 3px 10px #c2bca5;
     opacity: 1;
     margin-bottom: 50px;
@@ -138,6 +174,9 @@ body {
 
 @media (max-width: 800px) {
     .style-center-div {
+        width: 100vw;
+    }
+    .style-banner {
         width: 100vw;
     }
 }
@@ -151,7 +190,7 @@ body {
     .style-center-div {
         margin-left: 20px;
         max-width: 500px;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -266,13 +305,10 @@ body {
     min-width: 250px;
 }
 
-        .pill-button:hover {
-            transform: scale(1.05);
-        }
-
-        .pill-button:active {
-            transform: scale(0.95);
-        }
+    .pill-button:active {
+        transform: scale(0.99);
+        background: linear-gradient(to bottom, #e8e5e1 80%, #9e9a86 100%);
+    }
 
     #footer {
         font-family: MarvelouzTubeFont3;
