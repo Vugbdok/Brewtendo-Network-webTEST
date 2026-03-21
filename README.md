@@ -1,5 +1,5 @@
 <div align="center">
-             <img src="docs/images/OC-Patcher.png" alt="OpenCore Patcher Logo" width="256" />
+             <img src="docs/images/OC-Patcher.png" alt="Brewtendo Logo" width="256" />
              <h1>Brewtendo Network Website</h1>
 </div>
 
