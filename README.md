@@ -18,4 +18,4 @@ This is the repository that hosts the files used by the **Brewtendo Network Webs
 ---
 
 ## Join the discord!
-To learn more about **Brewtendo Network** at the official [Discord](https://discord.gg/brewtendo)
+To learn more about **Brewtendo Network** at the official [Discord](https://discord.gg/brewtendo) .
