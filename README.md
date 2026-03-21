@@ -3,7 +3,7 @@
              <h1>Brewtendo Network Website</h1>
 </div>
 
-This repository hosts the files used by the **Brewtendo Website**.
+This is the repository that hosts the files used by the **Brewtendo Network Website**.
 
 ---
 
@@ -15,7 +15,7 @@ This repository hosts the files used by the **Brewtendo Website**.
 - The `.cer` and `.accs` files are TXT files
 - The `.sb3` files are Scratch Projects
 - You’re welcome to view the files, but this repo is **Not open for contributions**. (This solely exists so Metro OS can download them reliably.)
-
+# For the website!
 ---
 
 ## 🔗 More Information
