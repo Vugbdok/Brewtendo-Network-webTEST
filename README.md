@@ -8,13 +8,11 @@ This is the repository that hosts the files used by the **Brewtendo Network Webs
 ---
 
 ## Thanks to
-- The `.db` files are Zip archives
-- The `.sf` files are WAV files
-- The `.csf` files are MP3 files
-- The `.as` and `.lyr` files are SVG assets
-- The `.cer` and `.accs` files are TXT files
-- The `.sb3` files are Scratch Projects
-- You’re welcome to view the files, but this repo is **Not open for contributions**. (This solely exists so Metro OS can download them reliably.)
+- `cannedfart` For half of the website.
+- `.sf` files are WAV files
+- `.csf` files are MP3 files
+- `.as` and `.lyr` files are SVG assets
+- `.cer` and `.accs` files are TXT files
 
   **For the website!**
 ---
