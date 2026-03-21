@@ -1,4 +1,7 @@
-# Brewtendo Network Website
+<div align="center">
+             <img src="docs/images/OC-Patcher.png" alt="OpenCore Patcher Logo" width="256" />
+             <h1>Brewtendo Network Website</h1>
+</div>
 
 This repository hosts the files used by the **Brewtendo Website**.
 
@@ -17,5 +20,3 @@ This repository hosts the files used by the **Brewtendo Website**.
 
 ## 🔗 More Information
 To learn more about the **NextCloud Service**, visit: https://sites.google.com/view/theoxydevs/nextcloudservice
-
-![Discord](https://img.shields.io/discord/417165963327176704?color=7289da&label=discord&style=plastic)
