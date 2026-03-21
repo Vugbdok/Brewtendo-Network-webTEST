@@ -1,7 +1,8 @@
 <div align="center">
              <img src="meta/images/3DS_Icon_Brew-1.png" alt="Brewtendo Logo" width="256" />
-             <h1>**Brewtendo Network Website**</h1>
+             <h1>Brewtendo Network Website</h1>
 </div>
+
 
 This is the repository that hosts the files used by the **Brewtendo Network Website**.
 
