@@ -11,8 +11,8 @@ This is the repository that hosts the files used by the **Brewtendo Network Webs
 ## Thanks to these people for the web site!
 - `cannedfart` For half of the website.
 - `Vugbdok` For assets and guidance.
-- `nebulagamez` he made the file.
--  `` files are TXT files
+- `nebulagamez` He made the file.
+-  `itsglowny` They migrated the website to react with next.js framework.
 - `OpenCore Legacy Patcher` For some of the readme.
 
 ---
