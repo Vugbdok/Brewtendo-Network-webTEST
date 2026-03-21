@@ -21,6 +21,7 @@ This is the repository that hosts the files used by the **Brewtendo Network Webs
 To learn more about **Brewtendo Network** at the official [Discord](https://discord.gg/brewtendo) .
 
  <div>
-            <p>Website by <a href="https://discord.com/users/1106930666333028422" class="link"><img class="pfp" src="assets/avatars/cannedfart/249974992.png" /> @cannedfart</a> on Discord</p>
-            <p>Guide by <a href="https://discord.com/users/1268772602227327083" class="link"><img class="pfp" src="https://cdn.discordapp.com/avatars/1268772602227327083/d0c4541f94f8562f6babfa151fa98afc.png" /> Adrian Bautista (@vugbdok8307)</a> on Discord</p>
+            <p>Website by <a href="https://discord.com/users/1106930666333028422" class="link"><img class="pfp" src="assets/avatars/cannedfart.png" /> @cannedfart</a> on Discord</p>
+            <p>Guide by <a href="https://discord.com/users/1268772602227327083" class="link"><img class="pfp" src="assets/avatars/Vugbdok.jpg" /> Adrian Bautista (@vugbdok8307)</a> on Discord</p>
+   <p>Website by <a href="https://discord.com/users/1106930666333028422" class="link"><img class="pfp" src="assets/avatars/itsglowny.png" /> @cannedfart</a> on Discord</p>
         </div>
