@@ -17,5 +17,5 @@ This is the repository that hosts the files used by the **Brewtendo Network Webs
   **For the website!**
 ---
 
-## 🔗 More Information
-To learn more about the **NextCloud Service**, visit: https://sites.google.com/view/theoxydevs/nextcloudservice
+## Join the discord!
+To learn more about **Brewtendo Network** at: https://discord.gg/brewtendo/
