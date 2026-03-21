@@ -13,7 +13,7 @@ This is the repository that hosts the files used by the **Brewtendo Network Webs
 - `Vugbdok` For assets and guidance.
 - `nebulagamez` He made the file.
 -  `itsglowny` They migrated the website to react with next.js framework.
-- `OpenCore Legacy Patcher` For some of the readme.[OpenCore Legacy Patcher Readme]([https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/refs/heads/main/README.md)
+- `OpenCore Legacy Patcher` For some of the readme. [OpenCore Legacy Patcher Readme](https://raw.githubusercontent.com/dortania/OpenCore-Legacy-Patcher/refs/heads/main/README.md)
 
 ---
 
