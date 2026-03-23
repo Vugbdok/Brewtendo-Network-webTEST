@@ -10,7 +10,7 @@ function load_1() {
             </div>
             <!--NOT AI BTW-->
             <div id="center-all">
-                <div class="style-banner"><img src="https://brewtendonetwork.github.io/meta/images/3DS_Icon_Brew-1.png" width="150" /></div>
+                <div class="style-banner"><img src="assets/3DS_Icon_Brew-1.png" width="150" /></div>
                 <div id="center-div">
                     <div class="column">
                        <div class="style-center-container">
