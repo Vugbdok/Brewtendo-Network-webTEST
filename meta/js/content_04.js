@@ -8,11 +8,11 @@ function load_04() {
                 <h4 href="#top" onclick="changeContent('other'); swapStyleSheet('meta/css/main.css'); playAudio('decide');" style="border: none;">Other Info</h4>
             </div>
         </div>
-		<div class="style-center-div" class="row" style="padding: 10px 10px 30px 10px;" id="float">Brewtendo Staff
+		<div class="style-center-div" class="row" style="padding: 10px 10px 30px 10px;" id="float">Brewtendo Network Staff
 		<hr style="width:100%;">
 		<div style="display:flex;flex-direction:row;">
 			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
-				<li>Adrian Bautista (Vugbdok)</li>
+				<li>Adrian (Vugbdok)</li>
 				<li>Andrea</li>
 				<li>Bunnyzluver1998</li>
 				<li>FunDog</li>
@@ -44,15 +44,16 @@ function load_04() {
 			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
 				<li>Ender_EMAB</li>
 			</ul>
-		<div class="style-center-container">
+		</div>
+				<div class="style-center-container">
                         <div class="style-center-div-top">
-                            <h4>How to setup Brewtendo Network.</h4>
+                            <h4>Brewtendo Network Staff</h4>
                         </div>
                         <div class="style-center-div-nocolor" id="float">
 							<h2>What you WILL need</h2>
 							<hr style="width:90%;">
 							<ul>
-								<li><h2>A modded 3DS with Luma3DS and Universal downloader installed.</h2></li>
+								<li>SatellaGuy</li>
 								<li><h3>Click or tap <a href="https://3ds.hacks.guide/">Here</a> for more info.</h3></li>
 								<li><h2>A stable Wi-Fi connection.</h2></li>
 								<li><h2>A way to transfer files to the SD or microSD card.</h2></li>
@@ -64,7 +65,6 @@ function load_04() {
 							<div class="pill-button" style="margin-bottom:15px;margin-top:15px;" onclick="changeContent('guide_1'); swapStyleSheet('meta/css/guide.css'); playAudio('decide');">
 								Setting up the proxy.
 							</div>
-		</div>
 		</div>
     `;
 }
