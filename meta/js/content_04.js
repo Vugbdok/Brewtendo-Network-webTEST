@@ -45,22 +45,6 @@ function load_04() {
 				<li>Ender_EMAB</li>
 			</ul>
 		</div>
-				<div class="style-center-container">
-                        <div class="style-center-div-top">
-                            <h4>Brewtendo Network Staff</h4>
-                        </div>
-								<li>SatellaGuy</li>
-								<li><h3>Click or tap <a href="https://3ds.hacks.guide/">Here</a> for more info.</h3></li>
-								<li><h2>A stable Wi-Fi connection.</h2></li>
-								<li><h2>A way to transfer files to the SD or microSD card.</h2></li>
-								<li><h3>May not be needed.</h3></li>
-								<li><h2>Nimbus/Pretendo installed. (Optional)</h2></li>
-								<li><h3>Click or tap <a href="https://pretendo.network/docs/install/3ds">Here</a> for more info.</h3></li>
-							</ul>
-							<hr style="width:90%;">
-							<div class="pill-button" style="margin-bottom:15px;margin-top:15px;" onclick="changeContent('guide_1'); swapStyleSheet('meta/css/guide.css'); playAudio('decide');">
-								Setting up the proxy.
-							</div>
 		</div>
     `;
 }
