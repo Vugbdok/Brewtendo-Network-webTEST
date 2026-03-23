@@ -12,13 +12,13 @@ function load_1() {
             <div id="center-all">
         		<div className="style-banner">
           			<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
-           				 <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
-            				  <img src="https://brewtendonetwork.github.io/assets/3DS_Icon_Brew-1.png" width="100" alt="Brewtendo" />
-           						   <h1 id="logo">Brewtendo</h1>
-            					</div>
-            <p style={{ margin: '10px 0 0 0', fontSize: '14px', color: '#5e5c50' }}>The only official website for Brewtendo Network.</p>
-          </div>
-        </div>
+           				<div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+            				 <img src="https://brewtendonetwork.github.io/assets/3DS_Icon_Brew-1.png" width="100" alt="Brewtendo" />
+           						  <h1 id="logo">Brewtendo</h1>
+            				</div>
+           						 <p style={{ margin: '10px 0 0 0', fontSize: '14px', color: '#5e5c50' }}>The only official website for Brewtendo Network.</p>
+         					 </div>
+        				</div>
                     <div class="column">
                        <div class="style-center-container">
                           <div class="style-center-div-top">
