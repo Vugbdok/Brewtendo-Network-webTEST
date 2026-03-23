@@ -12,7 +12,7 @@ function load_04() {
 		<hr style="width:100%;">
 		<div style="display:flex;flex-direction:row;">
 			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
-				<li>Adrian (VugbKat)</li>
+				<li>Adrian Bautista (Vugbdok)</li>
 				<li>Andrea</li>
 				<li>Bunnyzluver1998</li>
 				<li>FunDog</li>
@@ -25,6 +25,21 @@ function load_04() {
 				<li>Preblox</li>
 				<li>Drag0n_A13</li>
 				<li>Thom</li>
+			</ul>
+			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
+				<li>SatellaGuy</li>
+				<li>Somarix</li>
+				<li>Technet</li>
+				<li>cannedfart</li>
+				<li>cool guy</li>
+				<li>gilberr</li>
+				<li>nebulagamez</li>
+				<li>very broken ps3</li>
+				<li>vista</li>
+				<li>ENO yosh :3</li>
+				<li>synikers</li>
+				<li>sam.</li>
+				<li>Ragy</li>
 			</ul>
 			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
 				<li>SatellaGuy</li>
