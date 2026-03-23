@@ -44,6 +44,26 @@ function load_04() {
 			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
 				<li>Ender_EMAB</li>
 			</ul>
+		<div class="style-center-container">
+                        <div class="style-center-div-top">
+                            <h4>How to setup Brewtendo Network.</h4>
+                        </div>
+                        <div class="style-center-div-nocolor" id="float">
+							<h2>What you WILL need</h2>
+							<hr style="width:90%;">
+							<ul>
+								<li><h2>A modded 3DS with Luma3DS and Universal downloader installed.</h2></li>
+								<li><h3>Click or tap <a href="https://3ds.hacks.guide/">Here</a> for more info.</h3></li>
+								<li><h2>A stable Wi-Fi connection.</h2></li>
+								<li><h2>A way to transfer files to the SD or microSD card.</h2></li>
+								<li><h3>May not be needed.</h3></li>
+								<li><h2>Nimbus/Pretendo installed. (Optional)</h2></li>
+								<li><h3>Click or tap <a href="https://pretendo.network/docs/install/3ds">Here</a> for more info.</h3></li>
+							</ul>
+							<hr style="width:90%;">
+							<div class="pill-button" style="margin-bottom:15px;margin-top:15px;" onclick="changeContent('guide_1'); swapStyleSheet('meta/css/guide.css'); playAudio('decide');">
+								Setting up the proxy.
+							</div>
 		</div>
 		</div>
     `;
