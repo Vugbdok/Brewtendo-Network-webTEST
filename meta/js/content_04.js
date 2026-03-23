@@ -8,7 +8,7 @@ function load_04() {
                 <h4 href="#top" onclick="changeContent('other'); swapStyleSheet('meta/css/main.css'); playAudio('decide');" style="border: none;">Other Info</h4>
             </div>
         </div>
-		<div class="style-center-div" class="row" style="padding: 10px 50px 30px 30px;" id="float">Brewtendo Network Staff
+		<div class="style-center-div" class="row" style="padding: 10px 40px 30px 30px;" id="float">Brewtendo Network Staff
 		<hr style="width:100%;">
 		<div style="display:flex;flex-direction:row;">
 			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
