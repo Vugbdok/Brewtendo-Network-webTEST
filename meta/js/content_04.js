@@ -42,19 +42,7 @@ function load_04() {
 				<li>Ragy</li>
 			</ul>
 			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
-				<li>SatellaGuy</li>
-				<li>Somarix</li>
-				<li>Technet</li>
-				<li>cannedfart</li>
-				<li>cool guy</li>
-				<li>gilberr</li>
-				<li>nebulagamez</li>
-				<li>very broken ps3</li>
-				<li>vista</li>
-				<li>ENO yosh :3</li>
-				<li>synikers</li>
-				<li>sam.</li>
-				<li>Ragy</li>
+				<li>Ender_EMAB</li>
 			</ul>
 		</div>
 		</div>
