@@ -49,10 +49,6 @@ function load_04() {
                         <div class="style-center-div-top">
                             <h4>Brewtendo Network Staff</h4>
                         </div>
-                        <div class="style-center-div-nocolor" id="float">
-							<h2>What you WILL need</h2>
-							<hr style="width:90%;">
-							<ul>
 								<li>SatellaGuy</li>
 								<li><h3>Click or tap <a href="https://3ds.hacks.guide/">Here</a> for more info.</h3></li>
 								<li><h2>A stable Wi-Fi connection.</h2></li>
