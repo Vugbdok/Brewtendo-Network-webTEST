@@ -44,7 +44,7 @@ function load_04() {
 			<ul class="float" style="list-style-type:none;margin:0;padding:0;">
 				<li>Ender_EMAB</li>
 			</ul>
-			<img src="https://brewtendonetwork.github.io/assets/3DS_Icon_Brew-1.png" width="200" alt="Brewtendo" />
+			<img src="https://brewtendonetwork.github.io/assets/3DS_Icon_Brew-1.png" width="200" alt="Brewtendo"/>
 		</div>
 		</div>
     `;
