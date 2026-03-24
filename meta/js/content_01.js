@@ -10,8 +10,15 @@ function load_1() {
             </div>
             <!--NOT AI BTW-->
             <div id="center-all">
-                <div class="style-banner"><img src="https://brewtendonetwork.github.io/meta/images/3DS_Icon_Brew-1.png" width="150" /></div>
-                <div id="center-div">
+        		<div className="style-banner">
+          			<div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%' }}>
+           				<div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+            				 <img src="https://brewtendonetwork.github.io/assets/3DS_Icon_Brew-1.png" width="200" alt="Brewtendo" />
+           						  <h1 id="logo">Brewtendo</h1>
+            				</div>
+           						 <p style={{ margin: '10px 0 0 0', fontSize: '14px', color: '#5e5c50' }}>The only official website for Brewtendo Network.</p>
+         					 </div>
+        				</div>
                     <div class="column">
                        <div class="style-center-container">
                           <div class="style-center-div-top">
@@ -40,7 +47,7 @@ function load_1() {
                         </div>
                     </div>
                 </div>
-                <div class="style-center-div" id="float">Brewtendo Description:<hr style="width:100%;" />Brewtendo is a Nintendo Network revival for the 3DS, it's not really trying to be a potential Pretendo rival, however. Instead it revives the things that they wouldn't add such as the eShop, Badge Arcade, Theme Shop, Spotpass, and Nintendo Video.<br />(devs lmk if i missed anything or you want me to add / change to this.)<img width="70" src="https://brewtendonetwork.github.io/meta/images/eShop.png" />If you live under a rock and want insight to why the eShop <br />shut down in 2023 then look <span style="cursor:pointer;" onclick="location.href='https://en-americas-support.nintendo.com/app/answers/detail/a_id/57847/~/wii-u-%26-nintendo-3ds-eshop-discontinuation-q%26a'"><u>here</u></span></div>
+                <div class="style-center-div" id="float">Brewtendo Description:<hr style="width:100%;" />Brewtendo is a Nintendo Network revival for the 3DS, it's not really trying to be a potential Pretendo rival, however. Instead it revives the things that they wouldn't add such as the eShop, Badge Arcade, Theme Shop, Spotpass, and Nintendo Video.<br />(devs lmk if i missed anything or you want me to add / change to this.)<img width="70" src="assets/eShop.png" />If you live under a rock and want insight to why the eShop <br />shut down in 2023 then look <span style="cursor:pointer;" onclick="location.href='https://en-americas-support.nintendo.com/app/answers/detail/a_id/57847/~/wii-u-%26-nintendo-3ds-eshop-discontinuation-q%26a'"><u>here</u></span></div>
             </div>
             </div>
     `;
