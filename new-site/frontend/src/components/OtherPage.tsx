@@ -1,6 +1,7 @@
 'use client';
 
 import { useContent } from '../contexts/ContentContext';
+import { staffList } from '../data/staff';
 
 export default function OtherPage() {
   const { changeContent, swapStyleSheet } = useContent();
