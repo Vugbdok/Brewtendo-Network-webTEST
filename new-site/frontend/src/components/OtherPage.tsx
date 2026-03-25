@@ -1,9 +1,14 @@
 'use client';
 
 import { useContent } from '../contexts/ContentContext';
+import { staffList } from '../data/staff';
 
 export default function OtherPage() {
   const { changeContent, playAudio, swapStyleSheet } = useContent();
+
+  const midPoint = Math.ceil(staffList.length / 2);
+  const firstHalf = staffList.slice(0, midPoint);
+  const secondHalf = staffList.slice(midPoint);
 
   return (
     <div>
@@ -20,34 +25,14 @@ export default function OtherPage() {
         <hr style={{width: '100%'}} />
         <div style={{display: 'flex', flexDirection: 'row'}}>
           <ul style={{listStyleType: 'none', margin: 0, padding: 0, float: 'left'}}>
-            <li>Adrian (VugbKat)</li>
-            <li>Andrea</li>
-            <li>Bunnyzluver1998</li>
-            <li>FunDog</li>
-            <li>HEXADUCK</li>
-            <li>John N. Brewtendo</li>
-            <li>Khentendo</li>
-            <li>KittenPeng</li>
-            <li>Meng</li>
-            <li>Mr.Ghosty</li>
-            <li>Preblox</li>
-            <li>Drag0n_A13</li>
-            <li>Thom</li>
+            {firstHalf.map((member) => (
+              <li key={member}>{member}</li>
+            ))}
           </ul>
           <ul style={{listStyleType: 'none', margin: 0, padding: 0, float: 'left'}}>
-            <li>SatellaGuy</li>
-            <li>Somarix</li>
-            <li>Technet</li>
-            <li>cannedfart</li>
-            <li>cool guy</li>
-            <li>gilberr</li>
-            <li>nebulagamez</li>
-            <li>very broken ps3</li>
-            <li>vista</li>
-            <li>ENO yosh :3</li>
-            <li>synikers</li>
-            <li>sam.</li>
-            <li>Ragy</li>
+            {secondHalf.map((member) => (
+              <li key={member}>{member}</li>
+            ))}
           </ul>
         </div>
       </div>

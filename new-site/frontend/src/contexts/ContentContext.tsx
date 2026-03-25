@@ -21,13 +21,24 @@ export function ContentProvider({ children }: { children: ReactNode }) {
   };
 
   const playAudio = (audio: string) => {
+    const allowedAudio = ['decide', 'background'];
+    if (!allowedAudio.includes(audio)) {
+      console.warn('Attempted to play unauthorized audio:', audio);
+      return;
+    }
     const audioElement = document.getElementById(audio) as HTMLAudioElement;
     if (audioElement) {
-      audioElement.play();
+      audioElement.play().catch(e => console.log('Audio play failed:', e));
     }
   };
 
+  const allowedSheets = ['/css/main.css', '/css/guide.css', '/globals.css'];
+
   const swapStyleSheet = (sheet: string) => {
+    if (!allowedSheets.includes(sheet)) {
+      console.warn('Attempted to load unauthorized stylesheet:', sheet);
+      return;
+    }
     const link = document.getElementById('pagestyle') as HTMLLinkElement;
     if (link) {
       link.href = sheet;

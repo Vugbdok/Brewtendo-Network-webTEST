@@ -75,7 +75,7 @@ export default function HomePage() {
             <br />(devs lmk if i missed anything or you want me to add / change to this.)
             <img width="70" src="https://brewtendonetwork.github.io/assets/eShop.png" alt="" />
             If you live under a rock and want insight to why the eShop <br />shut down in 2023 then look{' '}
-            <span style={{ cursor: 'pointer' }} onClick={() => window.location.href = 'https://en-americas-support.nintendo.com/app/answers/detail/a_id/57847/~/wii-u-%26-nintendo-3ds-eshop-discontinuation-q%26a'}>
+            <span style={{ cursor: 'pointer' }} onClick={() => window.open('https://en-americas-support.nintendo.com/app/answers/detail/a_id/57847/~/wii-u-%26-nintendo-3ds-eshop-discontinuation-q%26a', '_blank', 'noopener,noreferrer')}>
               <u>here</u>
             </span>
           </div>
