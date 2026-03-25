@@ -1,7 +1,6 @@
 'use client';
 
 import { useContent } from '../contexts/ContentContext';
-import { staffList } from '../data/staff';
 
 export default function OtherPage() {
   const { changeContent, swapStyleSheet } = useContent();
@@ -19,21 +18,8 @@ export default function OtherPage() {
           <h4 onClick={() => { changeContent('badgearcade'); swapStyleSheet('/css/guide.css'); }}>Badge Arcade</h4>
           <h4 onClick={() => { changeContent('other'); swapStyleSheet('/css/main.css'); }} style={{border: 'none'}}>Other Info</h4>
         </div>
-      </div>
-      <div className="style-center-div" style={{padding: '10px 10px 30px 10px'}} id="float">
-        Brewtendo Staff:
-        <hr style={{width: '100%'}} />
-        <div style={{display: 'flex', flexDirection: 'row'}}>
-          <ul style={{listStyleType: 'none', margin: 0, padding: 0, float: 'left'}}>
-            {firstHalf.map((member) => (
-              <li key={member}>{member}</li>
-            ))}
-          </ul>
-          <ul style={{listStyleType: 'none', margin: 0, padding: 0, float: 'left'}}>
-            {secondHalf.map((member) => (
-              <li key={member}>{member}</li>
-            ))}
-          </ul>
+        <div>
+          <img src="/images/miis/Adrian_render_headshot_2026-03-24T22_43_30.373Z.png" width="100" alt="Brewtendo" />
         </div>
       </div>
     </div>
