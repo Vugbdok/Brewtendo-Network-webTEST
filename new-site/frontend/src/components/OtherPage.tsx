@@ -1,14 +1,10 @@
 'use client';
 
 import { useContent } from '../contexts/ContentContext';
-import { staffList } from '../data/staff';
+import { staffMembers } from '../data/staff';
 
 export default function OtherPage() {
   const { changeContent, swapStyleSheet } = useContent();
-
-  const midPoint = Math.ceil(staffList.length / 2);
-  const firstHalf = staffList.slice(0, midPoint);
-  const secondHalf = staffList.slice(midPoint);
 
   return (
     <div>
@@ -19,8 +15,25 @@ export default function OtherPage() {
           <h4 onClick={() => { changeContent('badgearcade'); swapStyleSheet('/css/guide.css'); }}>Badge Arcade</h4>
           <h4 onClick={() => { changeContent('other'); swapStyleSheet('/css/main.css'); }} style={{border: 'none'}}>Other Info</h4>
         </div>
-        <div>
-          <img src="/images/miis/Adrian_render_headshot_2026-03-24T22_43_30.373Z.png" width="100" alt="Brewtendo" />
+      </div>
+      <div className="style-center-div" style={{padding: '10px 10px 30px 10px'}} id="float">
+        Brewtendo Staff:
+        <hr style={{width: '100%'}} />
+        <div style={{display: 'flex', flexWrap: 'wrap', gap: '20px', justifyContent: 'center'}}>
+          {staffMembers.map((member) => (
+            <div key={member.name} style={{textAlign: 'center', width: '100px'}}>
+              <img 
+                src={member.image} 
+                width="80" 
+                height="80" 
+                alt={member.name}
+                style={{borderRadius: '8px', objectFit: 'cover'}}
+              />
+              <div style={{fontSize: '12px', marginTop: '5px', wordBreak: 'break-word'}}>
+                {member.name}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
