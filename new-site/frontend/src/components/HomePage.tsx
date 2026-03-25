@@ -1,28 +1,18 @@
 'use client';
 
 import { useContent } from '../contexts/ContentContext';
-import { useEffect } from 'react';
 
 export default function HomePage() {
-  const { changeContent, playAudio, swapStyleSheet } = useContent();
-
-  useEffect(() => {
-    // Jouer la musique de fond au chargement de la page
-    const backgroundAudio = document.getElementById('background') as HTMLAudioElement;
-    if (backgroundAudio) {
-      backgroundAudio.volume = 0.1; // Volume très faible
-      backgroundAudio.play().catch(e => console.log('Audio autoplay prevented:', e));
-    }
-  }, []);
+  const { changeContent, swapStyleSheet } = useContent();
 
   return (
     <div>
       <div className="navi-bar">
         <div id="center-navi">
-          <h4 onClick={() => { changeContent('home'); swapStyleSheet('/css/main.css'); playAudio('decide'); }}>Brewtendo</h4>
-          <h4 onClick={() => { changeContent('guide'); swapStyleSheet('/css/guide.css'); playAudio('decide'); }}>Install Guide</h4>
-          <h4 onClick={() => { changeContent('badgearcade'); swapStyleSheet('/css/guide.css'); playAudio('decide'); }}>Badge Arcade</h4>
-          <h4 onClick={() => { changeContent('other'); swapStyleSheet('/css/main.css'); playAudio('decide'); }} style={{ border: 'none' }}>Other Info</h4>
+          <h4 onClick={() => { changeContent('home'); swapStyleSheet('/css/main.css'); }}>Brewtendo</h4>
+          <h4 onClick={() => { changeContent('guide'); swapStyleSheet('/css/guide.css'); }}>Install Guide</h4>
+          <h4 onClick={() => { changeContent('badgearcade'); swapStyleSheet('/css/guide.css'); }}>Badge Arcade</h4>
+          <h4 onClick={() => { changeContent('other'); swapStyleSheet('/css/main.css'); }} style={{ border: 'none' }}>Other Info</h4>
         </div>
       </div>
 
@@ -44,7 +34,7 @@ export default function HomePage() {
                 <h4>Learn how to install Brewtendo on your 3DS!</h4>
               </div>
               <div className="style-center-div-nocolor" id="float">
-                <div className="pill-button" onClick={() => { changeContent('guide'); swapStyleSheet('/css/guide.css'); playAudio('decide'); }}>
+                <div className="pill-button" onClick={() => { changeContent('guide'); swapStyleSheet('/css/guide.css'); }}>
                   Installation guide
                 </div>
               </div>
@@ -55,13 +45,13 @@ export default function HomePage() {
                 <h4 style={{ fontSize: '14px', marginTop: '0px', bottom: '0px' }}>Learn how to install Badge Arcade on your 3DS</h4>
               </div>
               <div className="style-center-div-nocolor" id="float">
-                <div className="pill-button" onClick={() => { changeContent('badgearcade'); swapStyleSheet('/css/guide.css'); playAudio('decide'); }}>
+                <div className="pill-button" onClick={() => { changeContent('badgearcade'); swapStyleSheet('/css/guide.css'); }}>
                   Badge Arcade guide
                 </div>
                 <hr style={{ width: '100%', marginTop: '25px' }} />
                 <h3>To start, install Badge Arcade from the eShop or hShop and update the game.</h3>
                 <h4 style={{ fontSize: '14px', marginTop: '25px' }}>Wanna check out the progress on the site?<br />this should change as the site progresses until the eventual release later in (april)?</h4>
-                <div className="pill-button" style={{ marginBottom: '15px' }} onClick={() => { changeContent('progress'); swapStyleSheet('/css/guide.css'); playAudio('decide'); }}>
+                <div className="pill-button" style={{ marginBottom: '15px' }} onClick={() => { changeContent('progress'); swapStyleSheet('/css/guide.css'); }}>
                   Progress
                 </div>
               </div>

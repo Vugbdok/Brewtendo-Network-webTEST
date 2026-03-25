@@ -1,91 +1,115 @@
-# Brewtendo Website - Project Overview (Migration)
+# Brewtendo Website - Simple Guide
 
-## Tech Stack
+## What's What (Simple Version)
 
-- **Framework**: Next.js 16 (React)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS + custom CSS files
-- **Deployment**: GitHub Pages (static export)
-- **No backend** - everything runs in the browser
-
-## Project Structure
+Think of this like a house with rooms. Each folder is a room with a specific job.
 
 ```
 new-site/frontend/
-├── src/
-│   ├── app/              # Next.js app router
-│   │   ├── layout.tsx    # Root layout with security headers
-│   │   ├── page.tsx      # Main entry point
-│   │   └── globals.css   # Global styles
-│   ├── components/       # React components
-│   │   ├── HomePage.tsx
-│   │   ├── GuidePage.tsx
-│   │   ├── BadgeArcadePage.tsx
-│   │   ├── OtherPage.tsx
-│   │   ├── ProgressPage.tsx
-│   │   ├── Footer.tsx
-│   │   └── PageRenderer.tsx
-│   ├── contexts/         # React context for state management
-│   │   └── ContentContext.tsx
-│   └── data/             # Static data
-│       └── staff.ts      # Staff list data
-├── public/               # Static assets
-│   ├── images/           # Images used by the site
-│   ├── css/              # Stylesheets
-│   ├── audio/            # Sound files
-│   ├── .well-known/      # Security.txt
-│   └── .nojekyll         # Prevents Jekyll processing
-├── next.config.js        # Next.js configuration
-└── package.json
+├── src/                      ← THE KITCHEN (where we cook the website)
+│   ├── app/                  ← The front door + main frame
+│   │   ├── layout.tsx        ← The walls around everything
+│   │   ├── page.tsx          ← What shows first when you enter
+│   │   └── globals.css       ← Paint colors for everything
+│   │
+│   ├── components/           ← THE ROOMS (each page of the site)
+│   │   ├── HomePage.tsx      ← Living room (first thing you see)
+│   │   ├── GuidePage.tsx     ← Guide room
+│   │   ├── GuideStep1Page.tsx ← Step 1 of guide
+│   │   ├── GuideStep2Page.tsx ← Step 2 of guide
+│   │   ├── BadgeArcadePage.tsx ← Badge Arcade info
+│   │   ├── OtherPage.tsx     ← Staff list room
+│   │   ├── ProgressPage.tsx  ← Progress tracker room
+│   │   ├── Footer.tsx        ← The floor (always at bottom)
+│   │   └── PageRenderer.tsx  ← The door picker (chooses which room)
+│   │
+│   ├── contexts/             ← THE PHONE LINE (shares info between rooms)
+│   │   └── ContentContext.tsx ← "Hey, switch to Guide room!"
+│   │
+│   └── data/                 ← THE NOTEBOOK (static info)
+│       └── staff.ts          ← List of staff members
+│
+├── public/                   ← THE GARAGE (stuff that goes to visitor as-is)
+│   ├── images/               ← Photos and icons
+│   ├── css/                  ← Style sheets (old way)
+│   ├── .well-known/          ← Security info for nerds
+│   └── .nojekyll             ← Tells GitHub "don't mess with this"
+│
+├── next.config.js            ← INSTRUCTION MANUAL for Next.js
+└── package.json              ← SHOPPING LIST (what we need installed)
 ```
 
-## How It Works
+## How It Actually Works (No BS)
 
-The site is a **Single Page Application (SPA)**. Instead of loading new pages from the server, everything happens client-side:
+1. **You open the site** → `layout.tsx` builds the frame, `PageRenderer` picks the first room
+2. **You click "Install Guide"** → `ContentContext` sends message: "show Guide room"
+3. **Room changes** → React swaps the component, no page reload
+4. **CSS changes too** → `swapStyleSheet()` loads different styles
 
-1. **Page switching**: Uses React state to switch between "pages" (Home, Guide, etc.) without reloading
-2. **Audio**: Sound effects play when clicking navigation
-3. **Style switching**: Different CSS files load for different sections
-4. **All data is static**: No API calls, everything is baked into the code
+## The 3 Files That Matter
 
-## Security Features
+| File | What It Does | Think Of It Like... |
+|------|--------------|---------------------|
+| `src/contexts/ContentContext.tsx` | Keeps track of which page we're on | A notepad that says "we're on Home" |
+| `src/components/PageRenderer.tsx` | Decides which component to show | A security guard checking the notepad |
+| `src/app/layout.tsx` | Wraps everything, adds headers | The building itself |
 
-- Content Security Policy (CSP) headers
-- X-Frame-Options: DENY (prevents clickjacking)
-- X-Content-Type-Options: nosniff
-- All external links use `rel="noopener noreferrer"`
-- Stylesheet loading is whitelist-only
-
-## Building & Deploying
+## Quick Build Guide
 
 ```bash
-# Install dependencies
+# 1. Go to the folder
 cd new-site/frontend
+
+# 2. Install stuff (one time only)
 npm install
 
-# Build for production
+# 3. Build the site
 npm run build
 
-# Output goes to `out/` folder, ready for GitHub Pages
+# 4. The site appears in `out/` folder
+#    Upload that to GitHub Pages
 ```
 
-The `.github/workflows/deploy.yml` handles automatic deployment on every push to main.
+## File Flow (How Data Moves)
 
-## Where Assets Come From
+```
+User clicks "Guide" button
+    ↓
+HomePage.tsx calls changeContent('guide')
+    ↓
+ContentContext.tsx updates currentPage to 'guide'
+    ↓
+PageRenderer.tsx sees currentPage changed
+    ↓
+PageRenderer returns <GuidePage /> instead of <HomePage />
+    ↓
+User sees Guide page (no refresh!)
+```
 
-Images load from two sources:
-- **Local**: Files in `public/images/` get copied to the build
-- **GitHub repo**: Some assets load directly from `https://raw.githubusercontent.com/BrewtendoNetwork/...`
+## Where Things Live
 
-## Key Files to Know
+| If you want to change... | Go to... |
+|---------------------------|----------|
+| What the home page shows | `src/components/HomePage.tsx` |
+| The guide steps | `src/components/GuidePage.tsx`, `GuideStep1Page.tsx`, `GuideStep2Page.tsx` |
+| Staff list | `src/data/staff.ts` |
+| The bottom footer | `src/components/Footer.tsx` |
+| Switching between pages | `src/contexts/ContentContext.tsx` |
+| Main colors/styles | `src/app/globals.css` |
 
-| File | Purpose |
-|------|---------|
-| `src/contexts/ContentContext.tsx` | Manages page state, audio, styles |
-| `src/components/PageRenderer.tsx` | Decides which page to show |
-| `next.config.js` | Build configuration for static export |
-| `public/.nojekyll` | Tells GitHub Pages not to use Jekyll |
+## What Was Changed From Old Site
+
+| Old Way (HTML/JS) | New Way (React) |
+|-------------------|-----------------|
+| `content_01.js` with HTML strings | `HomePage.tsx` with JSX |
+| `playAudio('decide')` on every click | Removed (no sound anymore) |
+| `changeContent('guide')` + `load_2()` function | `changeContent('guide')` + React component swap |
+| Separate HTML files for each page | Single file, components swap |
+
+## Important: No Backend!
+
+This is 100% frontend. No server, no database, no API calls. Everything happens in the user's browser.
 
 ---
 
-Built by itsglowny (migration). Questions? Ask on Discord or dm me.
+Built by itsglowny. Questions? Discord.

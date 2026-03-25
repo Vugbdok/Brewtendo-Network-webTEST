@@ -3,7 +3,7 @@
 import { useContent } from '../contexts/ContentContext';
 
 export default function Footer() {
-  const { changeContent, playAudio, swapStyleSheet } = useContent();
+  const { changeContent, swapStyleSheet } = useContent();
 
   return (
     <footer>
@@ -14,7 +14,7 @@ export default function Footer() {
         <p style={{ margin: '10px 0', fontSize: '14px' }}><img src="https://cdn.discordapp.com/avatars/1055874798535848118/289a02d4f188a935bc58f5e6dcaf346e.webp?size=80" alt="itsglowny" className="pfp" /> Migration by itsglowny - toadysh</p>
         <p><a className="link" href="https://www.youtube.com/@Trippy76534" rel="noopener noreferrer"><img width="30" src="https://raw.githubusercontent.com/BrewtendoNetwork/brewtendonetwork.github.io/main/meta/images/yticon.png" alt="ytimg" /> <span style={{position: 'relative', bottom: '7px'}}>YouTube Channel</span></a></p>
         <p><a className="link" href="https://discord.gg/brewtendo" rel="noopener noreferrer"><img width="30" src="https://raw.githubusercontent.com/BrewtendoNetwork/brewtendonetwork.github.io/main/meta/images/discord.webp" alt="discord icon" /> <span style={{position: 'relative', bottom: '7px'}}>Discord Server</span></a></p>
-        <p><a className="link" style={{cursor: 'pointer'}} onClick={() => { changeContent('progress'); swapStyleSheet('/globals.css'); playAudio('decide'); }}>Progress</a></p>
+        <p><a className="link" style={{cursor: 'pointer'}} onClick={() => { changeContent('progress'); swapStyleSheet('/globals.css'); }}>Progress</a></p>
       </div>
     </footer>
   );

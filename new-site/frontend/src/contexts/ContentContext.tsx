@@ -7,7 +7,6 @@ type Page = 'home' | 'guide' | 'guide_1' | 'guide_2' | 'guide_3' | 'badgearcade'
 interface ContentContextType {
   currentPage: Page;
   changeContent: (page: Page) => void;
-  playAudio: (audio: string) => void;
   swapStyleSheet: (sheet: string) => void;
 }
 
@@ -18,18 +17,6 @@ export function ContentProvider({ children }: { children: ReactNode }) {
 
   const changeContent = (page: Page) => {
     setCurrentPage(page);
-  };
-
-  const playAudio = (audio: string) => {
-    const allowedAudio = ['decide', 'background'];
-    if (!allowedAudio.includes(audio)) {
-      console.warn('Attempted to play unauthorized audio:', audio);
-      return;
-    }
-    const audioElement = document.getElementById(audio) as HTMLAudioElement;
-    if (audioElement) {
-      audioElement.play().catch(e => console.log('Audio play failed:', e));
-    }
   };
 
   const allowedSheets = ['/css/main.css', '/css/guide.css', '/globals.css'];
@@ -46,7 +33,7 @@ export function ContentProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <ContentContext.Provider value={{ currentPage, changeContent, playAudio, swapStyleSheet }}>
+    <ContentContext.Provider value={{ currentPage, changeContent, swapStyleSheet }}>
       {children}
     </ContentContext.Provider>
   );
