@@ -18,8 +18,9 @@ export default function OtherPage() {
           <h4 onClick={() => { changeContent('badgearcade'); swapStyleSheet('/css/guide.css'); }}>Badge Arcade</h4>
           <h4 onClick={() => { changeContent('other'); swapStyleSheet('/css/main.css'); }} style={{border: 'none'}}>Other Info</h4>
         </div>
-      </div>
-        <img src="new-site/frontend/public/images/miis/Adrian_render_headshot_2026-03-24T22_43_30.373Z.png" width="100" alt="Brewtendo" />
+        <div>
+          <img src="new-site/frontend/public/images/miis/Adrian_render_headshot_2026-03-24T22_43_30.373Z.png" width="100" alt="Brewtendo" />
+        </div>
       </div>
     </div>
   );
