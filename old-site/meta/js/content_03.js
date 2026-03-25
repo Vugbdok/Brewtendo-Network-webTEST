@@ -24,7 +24,7 @@ function load_3() {
 		<hr class="hide">
 		<hr class="hide">
 		<div id="center-div">
-			<div class="pill-button" onclick="changeContent('home'); swapStyleSheet('meta/css/main.css'); playAudio('decide');">
+			<div class="pill-button" onclick="changeContent('home'); swapStyleSheet('old-site/meta/css/main.css'); playAudio('decide');">
 				Home Page
 			</div>
 		</div>
