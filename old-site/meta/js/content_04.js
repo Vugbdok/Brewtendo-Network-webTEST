@@ -8,8 +8,8 @@ function load_04() {
                 <h4 href="#top" onclick="changeContent('other'); swapStyleSheet('old-site/meta/css/main.css'); playAudio('decide');" style="border: none;">Other Info</h4>
             </div>
     	</div>
-			<img src="old-site/meta/images/MiiTeamData/FounderTeam.png" width="500" alt="Founder"/>
-			<img src="old-site/meta/images/MiiTeamData/OwnerTeam.png" width="500" alt="Owner"/>
+			<img src="old-site/meta/images/MiiTeamData/FounderTeam.png" width="300" alt="Founder"/>
+			<img src="old-site/meta/images/MiiTeamData/OwnerTeam.png" width="300" alt="Owner"/>
 			<img src="old-site/meta/images/MiiTeamData/AdminTeam.png" width="800" alt="Administrators"/>
 		</div>
 		</div>
