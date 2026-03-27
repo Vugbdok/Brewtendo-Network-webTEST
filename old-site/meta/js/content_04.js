@@ -6,9 +6,9 @@ function load_04() {
             	<h4 href="#top" onclick="changeContent('guide'); swapStyleSheet('old-site/meta/css/guide.css'); playAudio('decide');">Install Guide</h4>
                 <h4 href="#top" onclick="changeContent('badgearcade'); swapStyleSheet('old-site/meta/css/guide.css'); playAudio('decide');">Badge Arcade</h4>
                 <h4 href="#top" onclick="changeContent('other'); swapStyleSheet('old-site/meta/css/main.css'); playAudio('decide');" style="border: none;">Other Info</h4>
+				<h1 id="logo">Brewtendo</h1>
             </div>
     	</div>
-		    <h1 id="logo">Brewtendo</h1>
 			<img src="old-site/meta/images/MiiTeamData/FounderTeam.png" width="250" alt="Founder"/>
 			<img src="old-site/meta/images/MiiTeamData/OwnerTeam.png" width="200" alt="Owner"/>
 			<img src="old-site/meta/images/MiiTeamData/AdminTeam.png" width="800" alt="Administrators"/>
