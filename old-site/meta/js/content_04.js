@@ -10,10 +10,11 @@ function load_04() {
     	</div>
 			<img src="old-site/meta/images/MiiTeamData/FounderTeam.png" width="250" alt="Founder"/>
 			<img src="old-site/meta/images/MiiTeamData/OwnerTeam.png" width="200" alt="Owner"/>
-			<img src="old-site/meta/images/MiiTeamData/DevTeam.png" width="800" alt="Administrators"/>
-			<img src="old-site/meta/images/MiiTeamData/UITeam.png" width="800" alt="Administrators"/>
-			<img src="old-site/meta/images/MiiTeamData/ShopmanTeam.png" width="800" alt="Administrators"/>
-			<img src="old-site/meta/images/MiiTeamData/ModTeam.png" width="800" alt="Administrators"/>
+			<img src="old-site/meta/images/MiiTeamData/AdminTeam.png" width="800" alt="Administrators"/>
+			<img src="old-site/meta/images/MiiTeamData/DevTeam.png" width="800" alt="Devs"/>
+			<img src="old-site/meta/images/MiiTeamData/UITeam.png" width="800" alt="Ui designers"/>
+			<img src="old-site/meta/images/MiiTeamData/ShopmanTeam.png" width="800" alt="eShop managers"/>
+			<img src="old-site/meta/images/MiiTeamData/ModTeam.png" width="800" alt="Discord mods"/>
 		</div>
 		</div>
     `;
