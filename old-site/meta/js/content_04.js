@@ -10,7 +10,7 @@ function load_04() {
     	</div>
 			<img src="old-site/meta/images/MiiTeamData/FounderTeam.png" alt="Founder"/>
 			<img src="old-site/meta/images/MiiTeamData/OwnerTeam.png" alt="Owner"/>
-			<img src="old-site/meta/images/MiiTeamData/AdminTeam.png" width="500" alt="Administrators"/>
+			<img src="old-site/meta/images/MiiTeamData/AdminTeam.png" width="800" alt="Administrators"/>
 		</div>
 		</div>
     `;
